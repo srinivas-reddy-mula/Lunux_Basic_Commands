@@ -227,6 +227,40 @@ Options:
 * info command is similar to the man command, it also gives some information about the command passed as an arguments.
 
         [root@devopsage ~]# info cal
+        NAME
+        cal, ncal — displays a calendar and the date of Easter
+
+        SYNOPSIS
+            cal [-31jy] [-A number] [-B number] [-d yyyy-mm] [[month] year]
+            cal [-31j] [-A number] [-B number] [-d yyyy-mm] -m month [year]
+            ncal [-C] [-31jy] [-A number] [-B number] [-d yyyy-mm] [[month] year]
+            ncal [-C] [-31j] [-A number] [-B number] [-d yyyy-mm] -m month [year]
+            ncal [-31bhjJpwySM] [-A number] [-B number] [-H yyyy-mm-dd] [-d yyyy-mm]
+                [-s country_code] [[month] year]
+            ncal [-31bhJeoSM] [-A number] [-B number] [-d yyyy-mm] [year]
+
+        DESCRIPTION
+            The cal utility displays a simple calendar in traditional format and ncal
+            offers an alternative layout, more options and the date of Easter.  The
+            new format is a little cramped but it makes a year fit on a 25x80 termi‐
+            nal.  If arguments are not specified, the current month is displayed.
+
+            The options are as follows:
+
+            -h      Turns off highlighting of today.
+
+            -J      Display Julian Calendar, if combined with the -o option, display
+                    date of Orthodox Easter according to the Julian Calendar.
+
+            -e      Display date of Easter (for western churches).
+
+            -j      Display Julian days (days one-based, numbered from January 1).
+
+            -m month
+                    Display the specified month.  If month is specified as a decimal
+                    number, appending ‘f’ or ‘p’ displays the same month of the fol‐
+                    lowing or previous year respectively.
+
 
 ##      10. whatis
 
