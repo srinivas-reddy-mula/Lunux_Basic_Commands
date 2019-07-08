@@ -25,7 +25,9 @@
 
 '''
     [root@devopsage ~]# whoami
+
     root
+    
     [root@ddevopsage ~]#
 '''
 
