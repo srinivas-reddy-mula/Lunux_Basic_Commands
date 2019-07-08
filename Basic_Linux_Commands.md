@@ -218,22 +218,22 @@ Options:
 
 * This command shows the manual of the command. It is often called as manual pages or simply man pages. It gives you a  complete information of the command, with all its details, options etc.
 
-Example: man cal , it will give you every details of the cal command. Output of man command is a complete file with organised details of that perticular command.
+        Example: man cal , it will give you every details of the cal command. Output of man command is a complete file with organised details of that perticular command.
 
-[root@devopsage ~]# man cal   // manual for the cal command
+        [root@devopsage ~]# man cal   // manual for the cal command
 
-9. info
+##      9. info
 
-info command is similar to the man command, it also gives some information about the command passed as an arguments.
+* info command is similar to the man command, it also gives some information about the command passed as an arguments.
 
-[root@devopsage ~]# info cal
+    [root@devopsage ~]# info cal
 
-10. whatis
+##      10. whatis
 
-This command will give you short information about the command used as an argument
+* This command will give you short information about the command used as an argument
 
-Example:
+        Example:
 
-[root@devopsage ~]# whatis cal
-cal (1)              - display a calendar
-[root@devopsage ~]#
+        [root@devopsage ~]# whatis cal
+        cal (1)              - display a calendar
+        [root@devopsage ~]#
