@@ -38,10 +38,8 @@
 
 ###     3. who
 
-* Who command is also used to list out the logged in users like user command does, but only the 
+ Who command is also used to list out the logged in users like user command does, but only the 
     difference is that who command lists the logged in users along with some detailed format.
-
-'''
 
     It displays,
 
@@ -50,15 +48,11 @@
         Login date and time.
         Users IP address
 
-'''
-
-'''
 
             [root@devopsage ~]# who
             sampleuser1     pts/0        2018-02-24 07:58 (157.48.246.125)
             sampleuser2     pts/1        2018-02-24 08:13 (localhost)
 
-'''
 
 * Here, the 1st column shows the username, the 2nd column shows their terminal, the 3rd column shows date, 
     the 4th   column shows time and the 5th column shows the machine Ip address from where they are logged in.
