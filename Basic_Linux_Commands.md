@@ -24,9 +24,9 @@
     Example: if you are logged in as a root user and you use this command, the value returned will be “root“
 
 '''
-[root@devopsage ~]# whoami
-root
-[root@ddevopsage ~]#
+    [root@devopsage ~]# whoami
+    root
+    [root@ddevopsage ~]#
 '''
 
 ###     2.  users
