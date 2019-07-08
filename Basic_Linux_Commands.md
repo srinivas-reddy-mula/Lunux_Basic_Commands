@@ -57,7 +57,6 @@
 * Here, the 1st column shows the username, the 2nd column shows their terminal, the 3rd column shows date, 
     the 4th   column shows time and the 5th column shows the machine Ip address from where they are logged in.
 
-'''
 
     Options:
 
@@ -65,7 +64,6 @@
         -u:  Will print with some more details like PID and IDLE time.
         -b: this options indicate the time and date of the last reboot
 
-'''
 
 
 ###     4. w
