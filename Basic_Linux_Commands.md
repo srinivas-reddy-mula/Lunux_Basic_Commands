@@ -58,11 +58,11 @@
     the 4th   column shows time and the 5th column shows the machine Ip address from where they are logged in.
 
 
-     Options:
+        Options:
 
-        -H:  prints the column header
-        -u:  Will print with some more details like PID and IDLE time.
-        -b: this options indicate the time and date of the last reboot
+            -H:  prints the column header
+            -u:  Will print with some more details like PID and IDLE time.
+            -b: this options indicate the time and date of the last reboot
 
 
 
