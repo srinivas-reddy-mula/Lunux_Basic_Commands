@@ -28,18 +28,18 @@
     [root@devopsage ~]# whoami
     root
     [root@ddevopsage ~]#
-    
+
 '''
 
 ###     2.  users
 
-    * It prints out the Ids of the currently logged in users in your host server.
+* It prints out the Ids of the currently logged in users in your host server.
 
-    '''
+'''
     [root@devopsage ~]# users
     sampleuser
     [root@devopsage ~]#
-    '''
+'''
 
 ###     3. who
 
