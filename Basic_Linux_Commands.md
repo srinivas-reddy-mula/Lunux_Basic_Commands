@@ -1,6 +1,5 @@
 ###  basic Linux commands 
-    '''
-    This Post Contains the use and explaination of below commands,
+*    This Post Contains the use and explaination of below commands,
 
     whoami
     users
@@ -14,7 +13,6 @@
     whatis
 
     So let’s get started.
-    '''
     
     
 ###     1. whoami
