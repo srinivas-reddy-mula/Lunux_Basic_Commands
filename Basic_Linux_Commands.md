@@ -15,7 +15,7 @@
     So let’s get started.
     
     
-##  __ 1. whoami __
+##      1.whoami
 
 
    
