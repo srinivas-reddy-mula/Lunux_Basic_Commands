@@ -226,7 +226,7 @@ Options:
 
 * info command is similar to the man command, it also gives some information about the command passed as an arguments.
 
-    [root@devopsage ~]# info cal
+        [root@devopsage ~]# info cal
 
 ##      10. whatis
 
