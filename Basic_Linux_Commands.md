@@ -72,7 +72,6 @@
 * Linux keeps a track of which users are logged in and what they are doing at that time.
 * w commands list out the logged in users and also displays what processes they are running.
 
-'''
 
     [root@devopsage ~]# w
     08:32:19 up  1:06,  2 users,  load average: 0.00, 0.01, 0.05
@@ -81,7 +80,6 @@
     sampleuser2     pts/3    localhost        08:36    4.00s  0.00s  0.00s ping localhost   
     [root@devopsage ~]#
     
-'''
 
 
 ###     5. echo
@@ -89,7 +87,6 @@
 * echo command is used to print the output of any message on the screen it is also used to print the value
      of certain variables.
 
-'''
    
     [root@devopsage ~]# echo "welcome to devopsage"
     welcome to devopsage
@@ -98,7 +95,6 @@
     /root
     [root@devopsage ~]#
    
-'''
 
 
 ###     6. date
@@ -106,13 +102,11 @@
 * date command is used to display the date and time of the server.
      It is also used to set the date on the server
 
-'''
 
     [root@devopsage ~]# date
     Sat Feb 24 08:48:08 UTC 2018
     [root@devopsage ~]#
 
-'''
 * Options:
 
         %m: month of the year (01-12)
@@ -130,27 +124,21 @@
         %h: month (jan-dec)
         %r: 12 hour time format. ex: 09:00:03 AM
 
-'''
 
     [root@devopsage ~]# date
     Sat Feb 24 09:05:47 UTC 2018
 
-'''
 
-'''
 
     [root@devopsage ~]# date '+%m/%d/%y %H:%M:%S'
     02/24/18 09:05:49
 
-'''
 
-'''
     
     [root@devopsage ~]# date '+%m/%d/%y %n%H:%M:%S'
     02/24/18 
     09:06:07
 
-'''
 
 
 ####    7. cal
