@@ -29,7 +29,7 @@
 
 ###     2.  users
 
-* __It prints out the Ids of the currently logged in users in your host server.__
+ __It prints out the Ids of the currently logged in users in your host server.__
 
     [root@devopsage ~]# users
     sampleuser
