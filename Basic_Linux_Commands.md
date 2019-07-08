@@ -72,13 +72,12 @@
 * Linux keeps a track of which users are logged in and what they are doing at that time.
 * w commands list out the logged in users and also displays what processes they are running.
 
-
-    [root@devopsage ~]# w
-    08:32:19 up  1:06,  2 users,  load average: 0.00, 0.01, 0.05
-    USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-    sampleuser1     pts/0    157.48.246.125   07:58    8:43   0.05s  0.18s sshd: sampleuser1 [priv]   
-    sampleuser2     pts/3    localhost        08:36    4.00s  0.00s  0.00s ping localhost   
-    [root@devopsage ~]#
+        [root@devopsage ~]# w
+        08:32:19 up  1:06,  2 users,  load average: 0.00, 0.01, 0.05
+        USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+        sampleuser1     pts/0    157.48.246.125   07:58    8:43   0.05s  0.18s sshd: sampleuser1 [priv]   
+        sampleuser2     pts/3    localhost        08:36    4.00s  0.00s  0.00s ping localhost   
+        [root@devopsage ~]#
     
 
 
@@ -88,12 +87,12 @@
      of certain variables.
 
    
-    [root@devopsage ~]# echo "welcome to devopsage"
-    welcome to devopsage
+        [root@devopsage ~]# echo "welcome to devopsage"
+        welcome to devopsage
 
-    [root@devopsage ~]# echo $HOME
-    /root
-    [root@devopsage ~]#
+        [root@devopsage ~]# echo $HOME
+        /root
+        [root@devopsage ~]#
    
 
 
@@ -103,9 +102,9 @@
      It is also used to set the date on the server
 
 
-    [root@devopsage ~]# date
-    Sat Feb 24 08:48:08 UTC 2018
-    [root@devopsage ~]#
+        [root@devopsage ~]# date
+        Sat Feb 24 08:48:08 UTC 2018
+        [root@devopsage ~]#
 
 * Options:
 
@@ -125,19 +124,19 @@
         %r: 12 hour time format. ex: 09:00:03 AM
 
 
-    [root@devopsage ~]# date
-    Sat Feb 24 09:05:47 UTC 2018
+                [root@devopsage ~]# date
+                Sat Feb 24 09:05:47 UTC 2018
 
 
 
-    [root@devopsage ~]# date '+%m/%d/%y %H:%M:%S'
-    02/24/18 09:05:49
+                [root@devopsage ~]# date '+%m/%d/%y %H:%M:%S'
+                02/24/18 09:05:49
 
 
-    
-    [root@devopsage ~]# date '+%m/%d/%y %n%H:%M:%S'
-    02/24/18 
-    09:06:07
+                
+                [root@devopsage ~]# date '+%m/%d/%y %n%H:%M:%S'
+                02/24/18 
+                09:06:07
 
 
 
@@ -152,73 +151,67 @@ Options:
     -y:  Display whole year
     -v: Display calendar source.
 
-'''
 
-    [root@devopsage ~]# cal
-        February 2018   
-    Su Mo Tu We Th Fr Sa
-                1  2  3
-    4  5  6  7  8  9 10
-    11 12 13 14 15 16 17
-    18 19 20 21 22 23 24
-    25 26 27 28
+            [root@devopsage ~]# cal
+                February 2018   
+            Su Mo Tu We Th Fr Sa
+                        1  2  3
+            4  5  6  7  8  9 10
+            11 12 13 14 15 16 17
+            18 19 20 21 22 23 24
+            25 26 27 28
 
-'''
 
-'''
 
-    [root@devopsage ~]# cal 1 2018
-        January 2018    
-    Su Mo Tu We Th Fr Sa
-        1  2  3  4  5  6
-    7  8  9 10 11 12 13
-    14 15 16 17 18 19 20
-    21 22 23 24 25 26 27
-    28 29 30 31
+                    [root@devopsage ~]# cal 1 2018
+                        January 2018    
+                    Su Mo Tu We Th Fr Sa
+                        1  2  3  4  5  6
+                    7  8  9 10 11 12 13
+                    14 15 16 17 18 19 20
+                    21 22 23 24 25 26 27
+                    28 29 30 31
 
-'''
 
-'''
 
-    [root@devopsage ~]# cal 2018
-                                2018                               
+        [root@devopsage ~]# cal 2018
+                                    2018                               
 
-        January               February                 March       
-    Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
-        1  2  3  4  5  6                1  2  3                1  2  3
-    7  8  9 10 11 12 13    4  5  6  7  8  9 10    4  5  6  7  8  9 10
-    14 15 16 17 18 19 20   11 12 13 14 15 16 17   11 12 13 14 15 16 17
-    21 22 23 24 25 26 27   18 19 20 21 22 23 24   18 19 20 21 22 23 24
-    28 29 30 31            25 26 27 28            25 26 27 28 29 30 31
+            January               February                 March       
+        Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+            1  2  3  4  5  6                1  2  3                1  2  3
+        7  8  9 10 11 12 13    4  5  6  7  8  9 10    4  5  6  7  8  9 10
+        14 15 16 17 18 19 20   11 12 13 14 15 16 17   11 12 13 14 15 16 17
+        21 22 23 24 25 26 27   18 19 20 21 22 23 24   18 19 20 21 22 23 24
+        28 29 30 31            25 26 27 28            25 26 27 28 29 30 31
 
-            April                   May                   June        
-    Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
-    1  2  3  4  5  6  7          1  2  3  4  5                   1  2
-    8  9 10 11 12 13 14    6  7  8  9 10 11 12    3  4  5  6  7  8  9
-    15 16 17 18 19 20 21   13 14 15 16 17 18 19   10 11 12 13 14 15 16
-    22 23 24 25 26 27 28   20 21 22 23 24 25 26   17 18 19 20 21 22 23
-    29 30                  27 28 29 30 31         24 25 26 27 28 29 30
+                April                   May                   June        
+        Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+        1  2  3  4  5  6  7          1  2  3  4  5                   1  2
+        8  9 10 11 12 13 14    6  7  8  9 10 11 12    3  4  5  6  7  8  9
+        15 16 17 18 19 20 21   13 14 15 16 17 18 19   10 11 12 13 14 15 16
+        22 23 24 25 26 27 28   20 21 22 23 24 25 26   17 18 19 20 21 22 23
+        29 30                  27 28 29 30 31         24 25 26 27 28 29 30
 
-            July                  August                September     
-    Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
-    1  2  3  4  5  6  7             1  2  3  4                      1
-    8  9 10 11 12 13 14    5  6  7  8  9 10 11    2  3  4  5  6  7  8
-    15 16 17 18 19 20 21   12 13 14 15 16 17 18    9 10 11 12 13 14 15
-    22 23 24 25 26 27 28   19 20 21 22 23 24 25   16 17 18 19 20 21 22
-    29 30 31               26 27 28 29 30 31      23 24 25 26 27 28 29
-                                                30
-        October               November               December      
-    Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
-        1  2  3  4  5  6                1  2  3                      1
-    7  8  9 10 11 12 13    4  5  6  7  8  9 10    2  3  4  5  6  7  8
-    14 15 16 17 18 19 20   11 12 13 14 15 16 17    9 10 11 12 13 14 15
-    21 22 23 24 25 26 27   18 19 20 21 22 23 24   16 17 18 19 20 21 22
-    28 29 30 31            25 26 27 28 29 30      23 24 25 26 27 28 29
-                                                30 31
+                July                  August                September     
+        Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+        1  2  3  4  5  6  7             1  2  3  4                      1
+        8  9 10 11 12 13 14    5  6  7  8  9 10 11    2  3  4  5  6  7  8
+        15 16 17 18 19 20 21   12 13 14 15 16 17 18    9 10 11 12 13 14 15
+        22 23 24 25 26 27 28   19 20 21 22 23 24 25   16 17 18 19 20 21 22
+        29 30 31               26 27 28 29 30 31      23 24 25 26 27 28 29
+                                                    30
+            October               November               December      
+        Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+            1  2  3  4  5  6                1  2  3                      1
+        7  8  9 10 11 12 13    4  5  6  7  8  9 10    2  3  4  5  6  7  8
+        14 15 16 17 18 19 20   11 12 13 14 15 16 17    9 10 11 12 13 14 15
+        21 22 23 24 25 26 27   18 19 20 21 22 23 24   16 17 18 19 20 21 22
+        28 29 30 31            25 26 27 28 29 30      23 24 25 26 27 28 29
+                                                    30 31
 
-    [root@devopsage ~]#
+        [root@devopsage ~]#
 
-'''
 
 
 ###     8. man
