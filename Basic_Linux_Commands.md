@@ -19,8 +19,8 @@
 
 
    
-__It shows the name of the user with whom you logged in i.e, to identify your username whoami command is used.__
-    **Example: if you are logged in as a root user and you use this command, the value returned will be “root“**
+* __It shows the name of the user with whom you logged in i.e, to identify your username whoami command is used.__
+*    __Example: if you are logged in as a root user and you use this command, the value returned will be “root“__
 
     [root@devopsage ~]# whoami
     root
@@ -29,15 +29,12 @@ __It shows the name of the user with whom you logged in i.e, to identify your us
 
 ###     2.  users
 
-* It prints out the Ids of the currently logged in users in your host server.
-
-'''
+* __It prints out the Ids of the currently logged in users in your host server.__
 
     [root@devopsage ~]# users
     sampleuser
     [root@devopsage ~]#
 
-'''
 
 ###     3. who
 
