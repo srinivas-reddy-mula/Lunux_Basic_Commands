@@ -15,11 +15,11 @@
     So let’s get started.
     
     
-##  __ **1. whoami** __
+##  __ 1. whoami __
 
 
    
-**It shows the name of the user with whom you logged in i.e, to identify your username whoami command is used.**
+__It shows the name of the user with whom you logged in i.e, to identify your username whoami command is used.__
     **Example: if you are logged in as a root user and you use this command, the value returned will be “root“**
 
     [root@devopsage ~]# whoami
