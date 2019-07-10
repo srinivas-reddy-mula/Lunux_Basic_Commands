@@ -70,7 +70,7 @@
 
 * This command will also show the logged in user along with what users are doing. 
 * Linux keeps a track of which users are logged in and what they are doing at that time.
-* w commands list out the logged in users and also displays what processes they are running.
+* __w__ commands list out the logged in users and also displays what processes they are running.
 
         [root@devopsage ~]# w
         08:32:19 up  1:06,  2 users,  load average: 0.00, 0.01, 0.05
