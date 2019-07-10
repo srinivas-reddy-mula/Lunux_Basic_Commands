@@ -38,8 +38,8 @@
 
 ###     3. who
 
- Who command is also used to list out the logged in users like user command does, but only the 
-    difference is that who command lists the logged in users along with some detailed format.
+ __Who command is also used to list out the logged in users like user command does, but only the__
+    **difference is that who command lists the logged in users along with some detailed format.**
 
     It displays,
 
@@ -54,8 +54,8 @@
             sampleuser2     pts/1        2018-02-24 08:13 (localhost)
 
 
-* Here, the 1st column shows the username, the 2nd column shows their terminal, the 3rd column shows date, 
-    the 4th   column shows time and the 5th column shows the machine Ip address from where they are logged in.
+* __Here, the 1st column shows the username, the 2nd column shows their terminal, the 3rd column shows date,__
+    __the 4th   column shows time and the 5th column shows the machine Ip address from where they are logged in.__
 
 
         Options:
@@ -99,7 +99,7 @@
 ###     6. date
 
 * date command is used to display the date and time of the server.
-     It is also used to set the date on the server
+     **It is also used to set the date on the server**
 
 
         [root@devopsage ~]# date
