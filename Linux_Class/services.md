@@ -12,21 +12,21 @@
 
 * Adding user to group
     
-    sudo usermod -aG <group_name> <username>
-    ex:
+        sudo usermod -aG <group_name> <username>
+        ex:
         sudo usermod -aG docker msreddy
 
 * website for systemctl commands
-     refer [here](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#system-state-overview)
+        refer [here](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#system-state-overview)
 * systemctl commnads to know services 
 
-    sudo systemctl list-units --help
-    systemctl list-units --all
-    sudo systemctl list-units --all --state=inactive
-    sudo systemctl list-units --type=service
-    systemctl list-unit-files
+        sudo systemctl list-units --help
+        systemctl list-units --all
+        sudo systemctl list-units --all --state=inactive
+        sudo systemctl list-units --type=service
+        systemctl list-unit-files
 
-    * in centos the service has to be started by us manually 
+    in centos the service has to be started by us manually 
 
         sudo systemctl start httpd.service
 
