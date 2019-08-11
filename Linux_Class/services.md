@@ -40,7 +40,15 @@
 
         sudo systemctl status tomcat8 
         sudo systemctl status mysql 
-    
+
+
+* To start an application when system restart
+
+    sudo systemctl enable <application>
+    sudo systemctl enable httpd
+    sudo systemctl enable tomcat8
+
+
 
 ## Systemd Service 
 
