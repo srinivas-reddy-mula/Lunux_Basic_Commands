@@ -17,7 +17,7 @@
         sudo usermod -aG docker msreddy
 
 * website for systemctl commands
-    * refer[here](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#system-state-overview)
+     refer [here](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#system-state-overview)
 * systemctl commnads to know services 
 
     sudo systemctl list-units --help
@@ -31,12 +31,13 @@
         sudo systemctl start httpd.service
 
 * To check status of any sevice in linux
-    * one way / older way
+    
+     one way / older way
 
         sudo service tomcat8 status
         sudo service mysql status
 
-    * second way / new way
+     second way / new way
 
         sudo systemctl status tomcat8 
         sudo systemctl status mysql 
@@ -48,17 +49,17 @@
         sudo systemctl enable httpd
         sudo systemctl enable tomcat8
 
-    * enable service means we are creating a symlink that service to systemd
+     enable service means we are creating a symlink that service to systemd
 
 
 ## Systemd Service 
-    '''
+    
         cat /lib/systemd/system/mysql.service
     to check whether enabled or not
          systemctl is-enabled apache2
     to get dependencies
         systemctl list-dependencies tomcat8
-    '''
+    
 
 
 ## TO Make an application as a SERVICE
@@ -69,7 +70,7 @@
     * 4. change permissions
 
 *   change to
-    * /etc/systemd/system inthat create application file_name as service
+    * /etc/systemd/system in that create application file_name as service
         * add 
             * unit
             * service
