@@ -18,7 +18,7 @@
 
 * website for systemctl commands
     * refer[here](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#system-state-overview)
-* systemctl
+* systemctl commnads to know services 
 
     sudo systemctl list-units --help
     systemctl list-units --all
@@ -44,12 +44,33 @@
 
 * To start an application when system restart
 
-    sudo systemctl enable <application>
-    sudo systemctl enable httpd
-    sudo systemctl enable tomcat8
+        sudo systemctl enable <application>
+        sudo systemctl enable httpd
+        sudo systemctl enable tomcat8
 
+    * enable service means we are creating a symlink that service to systemd
 
 
 ## Systemd Service 
+    '''
+        cat /lib/systemd/system/mysql.service
+    to check whether enabled or not
+         systemctl is-enabled apache2
+    to get dependencies
+        systemctl list-dependencies tomcat8
+    '''
 
-* 
+
+## TO Make an application as a SERVICE
+
+*   * 1. Create a user
+    * 2. create password
+    * 3. change ownership
+    * 4. change permissions
+
+*   change to
+    * /etc/systemd/system inthat create application file_name as service
+        * add 
+            * unit
+            * service
+            * install
