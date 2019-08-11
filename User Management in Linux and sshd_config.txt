@@ -1,0 +1,4 @@
+editing visudo 
+	username ALL=(ALL:ALL) NOPASSD:ALL
+
+to enable password authentication	==>> vi /etc/ssh/sshd_config  --> edit password authentication
