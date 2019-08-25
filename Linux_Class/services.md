@@ -1,6 +1,6 @@
 ##  Services discussion
 
-* Service Types:
+* __Service Types__:
     * 1.Run when user requests
     * 2.Run all the time
         * foreground
