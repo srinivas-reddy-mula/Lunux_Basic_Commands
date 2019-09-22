@@ -35,8 +35,8 @@
     --> info
 
 6. TO check current shell 
-    echo $0
-    tail /etc/passwd
+    * echo $0
+        * tail /etc/passwd
     
     * TO list the shells
         [ec2-user@ip-172-31-20-83 ~]$ cat /etc/shells
